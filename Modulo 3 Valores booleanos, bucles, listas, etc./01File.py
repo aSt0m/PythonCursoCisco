@@ -196,7 +196,11 @@
 
 "Programa que nos dice si el año es bisiesto u ordinario"
 
+<<<<<<< HEAD
 #print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
+=======
+print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
+>>>>>>> 71cfdfda8819e0ea55afbae1b111d64dd5e50572
 
 #anio = int(input("Ingresa el año:  "))
 #if anio < 1582:
@@ -224,6 +228,7 @@
 #    
 
 
+<<<<<<< HEAD
 #x = 5
 #if x > 5:
 #    if x == 6:
@@ -241,3 +246,15 @@
 
 for i in range(10):
     print("soy el valor: ", i)
+=======
+x = 7
+if x > 5:
+    if x == 6:
+         print("anidado: x == 6")
+    elif x == 10:
+        print("anidado: x == 10")
+    else:
+        print("anidado -> else")
+else:
+    print("else")
+>>>>>>> 71cfdfda8819e0ea55afbae1b111d64dd5e50572
