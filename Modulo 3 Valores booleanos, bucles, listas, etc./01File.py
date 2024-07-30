@@ -244,9 +244,9 @@ print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
 #for variable in range(0, 9, 2):
 #    print(variable)
 
-for i in range(10):
-    print("soy el valor: ", i)
-
+#for i in range(10):
+#    print("soy el valor: ", i)
+#
 
 
 
