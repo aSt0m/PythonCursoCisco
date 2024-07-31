@@ -196,11 +196,7 @@
 
 "Programa que nos dice si el año es bisiesto u ordinario"
 
-<<<<<<< HEAD
 #print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
-=======
-print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
->>>>>>> 71cfdfda8819e0ea55afbae1b111d64dd5e50572
 
 #anio = int(input("Ingresa el año:  "))
 #if anio < 1582:
@@ -228,7 +224,7 @@ print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
 #    
 
 
-<<<<<<< HEAD
+
 #x = 5
 #if x > 5:
 #    if x == 6:
@@ -248,6 +244,6 @@ print("Programa que comprueba si el año que ingresas es bisiesto u ordinario")
 #    print("soy el valor: ", i)
 #
 
-"Prueba para git"
+#"Prueba para git"
 
 
