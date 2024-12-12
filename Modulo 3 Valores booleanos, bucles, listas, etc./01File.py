@@ -293,6 +293,7 @@
 #    print("No has ingresado ningún número.")
 #    
     
+<<<<<<< HEAD
 #largest_number = -9999999
 #counter = 0
 #
@@ -311,3 +312,14 @@
 #else:
 #    print("No has ingresado ningún número.") 
 #
+=======
+#Open, read, and split text file
+
+#with open("login.txt","r") as file:
+#    file_text = file.read()
+#print(file_text)    
+
+var = [1,2,3,4]
+print(var[4])
+print("Hola")
+>>>>>>> 1ac1b34 (print(hola))
