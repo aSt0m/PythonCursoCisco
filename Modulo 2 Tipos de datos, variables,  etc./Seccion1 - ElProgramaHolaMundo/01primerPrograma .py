@@ -62,3 +62,5 @@ print("Monty Python.")"""
 
 print("Mi", "nombre", "es", sep="_",end="*")
 print("Monty","Python.",sep="*",end="\n")
+
+print("Mi","Nombre","es:", sep="_", end="Tom")

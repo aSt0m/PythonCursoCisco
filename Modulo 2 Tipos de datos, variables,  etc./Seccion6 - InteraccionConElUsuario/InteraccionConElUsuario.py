@@ -18,10 +18,10 @@ INTERACCION CON EL USUARIO
 """ OPERADORES CADENA Y CONVERSIONES"""
 
 
-nombre = input("Dame tu nombre: ")
-num = int(input("Cuantas veces quieres que aparezca tu nombre?"))
+# nombre = input("Dame tu nombre: ")
+# num = int(input("Cuantas veces quieres que aparezca tu nombre?"))
 
-print("Ok ",nombre, "El numero de veces que aparecera tu nombre es: ", num * nombre ,sep="T\n", end="T\n")
+# print("Ok ",nombre, "El numero de veces que aparecera tu nombre es: ", num * nombre ,sep="_\n", end="=>\n")
 
 '''CONVERSIONES DE TIPOS UNA VEZ MAS'''
 
@@ -39,7 +39,7 @@ print("Ok ",nombre, "El numero de veces que aparecera tu nombre es: ", num * nom
 # mostrar el resultado de la división aquí
 #print("El resultado de la division es: ", val_a / val_b)
 
-print("\n¡Eso es todo, amigos!")
+# print("\n¡Eso es todo, amigos!")
 
 
 
@@ -48,11 +48,50 @@ print("\n¡Eso es todo, amigos!")
 """LAB OPERADORES Y EXPRESIONES"""
 
 
-hour = int(input("Hora de inicio (horas): "))
-mins = int(input("Minuto de inicio (minutos): "))
-dura = int(input("Duración del evento (minutos): "))
-mins = mins + dura # encuentra el número total de minutos
-hour = hour + mins // 60 # encuentra el número de horas ocultas en los minutos y actualiza las horas
-mins = mins % 60 # corrige los minutos para que estén en un rango de (0..59)
-hour = hour % 24 # corrige las horas para que estén en un rango de (0..23) 
-print(hour, ":", mins, sep='')
+# # hour = int(input("Hora de inicio (horas): "))
+# # mins = int(input("Minuto de inicio (minutos): "))
+# dura = int(input("Duración del evento (minutos): "))
+# mins = mins + dura # encuentra el número total de minutos
+# hour = hour + mins // 60 # encuentra el número de horas ocultas en los minutos y actualiza las horas
+# mins = mins % 60 # corrige los minutos para que estén en un rango de (0..59)
+# hour = hour % 24 # corrige las horas para que estén en un rango de (0..23) 
+# print(hour, ":", mins, sep='')
+
+
+
+# anything = input("Dime lo que sea...")
+# print("Hmm...", anything, "...en serio?")
+
+"""Replicacion"""
+
+# print("+" + "-" * 10 + "+")
+# print(("|" + " " * 10 + "|\n") * 5, end="")
+# print("+" + "-" * 10 + "+")
+
+# Salida
+# +----------+
+# |          |
+# |          |
+# |          |
+# |          |
+# |          |
+# +----------+
+
+"""Conversiones de tipos"""
+
+# leg_a = float(input("Dame el primer cateto"))
+# leg_b = float(input("Dame el segundo cateto"))
+# print("La longitud de la hipotenusa es:" + str((leg_a ** 2 + leg_b ** 2) ** .5))
+
+
+"""LAB Entradas y salidas simples"""
+
+# value_one = float(input("Dame el valor de la variable 1 "))
+# value_two = float(input("Dame el valor de la variable 2 "))
+
+# print("suma:",  value_one + value_two)
+# print("resta: ", value_one - value_two)
+# print("multiplicacion", value_one * value_two)
+# print("division", value_one / value_two)
+
+# print("\nEso es todo, amigos!")
