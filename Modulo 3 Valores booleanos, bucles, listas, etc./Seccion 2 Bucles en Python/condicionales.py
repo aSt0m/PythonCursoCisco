@@ -50,10 +50,42 @@
 
 """ Ejemplo con funcion max()"""
 
-number1 = int(input("Dame el primer numero: "))
-number2 = int(input("Dame el segundo numero: "))
-number3 = int(input("Dame el tercer numero: "))
+# number1 = int(input("Dame el primer numero: "))
+# number2 = int(input("Dame el segundo numero: "))
+# number3 = int(input("Dame el tercer numero: "))
 
-largest_number = max(number1, number2, number3)
+# largest_number = max(number1, number2, number3)
 
-print("El numero mas grande es el: ", largest_number, " con la funcion max()")
+# print("El numero mas grande es el: ", largest_number, " con la funcion max()")
+
+# number1 = int(input("Dame el primer numero: "))
+# number2 = int(input("Dame el segundo numero: "))
+# number3 = int(input("Dame el tercer numero: "))
+
+# minor_number = min(number1,number2,number3)
+
+# print("El numero mas pequenio es: ", minor_number)
+
+"""Ejemplo Espatifilo"""
+
+# name = input("Escribe el nombre de la flor: ")
+
+# if name == "ESPATIFILO":
+#     print("Si - !El Espatifilo! es la mejor planta de todos los tiempos!")
+# elif name == "espatifilo":
+#     print("No, Quiero un gran Espatifilo!")
+# else:
+#     print("Espatifilo!, No", name)
+    
+    
+"""LAB Fundamentos de sentencia if-else"""
+
+income = float(input("Introduce el ingreso anual: "))
+
+if income < 85528:
+    tax = income * 0.18 - 556.02
+else: #income > 85528
+    tax = 14839.02 + 0.32  
+
+tax = round(tax, 0)
+print("El impuesto es:", tax, "pesos")
