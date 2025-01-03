@@ -80,12 +80,20 @@
     
 """LAB Fundamentos de sentencia if-else"""
 
-income = float(input("Introduce el ingreso anual: "))
+# Uso de la funcion round()
 
-if income < 85528:
-    tax = income * 0.18 - 556.02
-else: #income > 85528
-    tax = 14839.02 + 0.32  
+# income = float(input("Introduce el ingreso anual: "))
 
-tax = round(tax, 0)
-print("El impuesto es:", tax, "pesos")
+# if income < 85528:
+#     tax = income * 0.18 - 556.02
+# else: 
+#     tax = (income - 85528) *  0.32 + 14839.02
+
+# if tax < 0:
+#     tax = 0
+
+# tax = round(tax, 0)
+# print("El impuesto es:", tax, "pesos")
+
+"""LAB Fundamentos de if-elif-else"""
+
