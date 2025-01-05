@@ -96,4 +96,23 @@
 # print("El impuesto es:", tax, "pesos")
 
 """LAB Fundamentos de if-elif-else"""
+'''
+- Si el numero del anio no es divisible entre cuatro, es un anio comun
+- De lo contrario, si el numero del anio no es divisible entre 100, es un anio bisiesto
+- De lo contrario ]=, si el numero del anio no es divisible entr e 400, es un anio comun
+- De lo contrario, es un anio bisiesto
+'''
 
+year = int(input("Ingresa el año"))
+
+if year  < 1582:
+    print("No es un año valido, no esta dentro del período del calendario Gregoriano")
+else:
+    if year % 4 != 0:
+        print("El año es común " )
+    elif year % 100 != 100:
+        print("Este es un año bisiesto")
+    elif year % 400 != 400:
+        print("El año es común ")
+    else:
+        print("Este es un año bisiesto")
