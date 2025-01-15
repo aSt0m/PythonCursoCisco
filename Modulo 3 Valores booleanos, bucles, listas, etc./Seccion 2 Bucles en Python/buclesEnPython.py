@@ -125,7 +125,7 @@
 #    power *= 2
     
     
-"Fundamentos del bucle for - contando lentamente (mississippily)"
+"Fundamentos del bucle for - contando lentamente (mississippi)"
 #import time
 #
 #
