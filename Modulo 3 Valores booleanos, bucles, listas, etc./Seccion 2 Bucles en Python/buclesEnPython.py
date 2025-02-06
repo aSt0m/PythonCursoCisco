@@ -1,26 +1,26 @@
 #Sección 2 del curso de Python de skillforall sobre bucles en Python
 
-"Bucles en Python"
+# "Bucles en Python"
 
 
 
-#Almacena el actual número más grande aquí.
-largest_number = -999999999
+# # Almacena el actual número más grande aquí.
+# largest_number = -999999999
 
-# Ingresa el primer valor.
-number = int(input("Introduce un número o escribe -1 para detener: "))
+# # Ingresa el primer valor.
+# number = int(input("Introduce un número o escribe -1 para detener: "))
 
-# Si el número no es igual a -1, continuaremos
-while number != -1:
-   # ¿Es el número más grande que el valor de largest_number?
-   if number > largest_number:
-       # Sí si, se actualiza largest_number.
-       largest_number = number
-   # Ingresa el siguiente número.
-   number = int(input("Introduce un número o escribe -1 para detener: "))
+# # Si el número no es igual a -1, continuaremos
+# while number != -1:
+#    # ¿Es el número más grande que el valor de largest_number?
+#    if number > largest_number:
+#        # Sí si, se actualiza largest_number.
+#        largest_number = number
+#    # Ingresa el siguiente número.
+#    number = int(input("Introduce un número o escribe -1 para detener: "))
 
-# Imprime el número más grande.
-print("El número más grande es:", largest_number)
+# # Imprime el número más grande.
+# print("El número más grande es:", largest_number)
 
 
 "Más ejemplos con while"
@@ -136,3 +136,18 @@ print("El número más grande es:", largest_number)
 
 
 "BREAK Y CONTINUE en el ciclo for"
+
+
+
+
+#----------------------------------------------------------------------
+
+counter = 1
+while counter != 100:
+    print("Dentro del bucle." , counter)
+    counter += 1
+    if counter == 30:
+        print("Counter llego a ", counter)
+    elif counter == 31:
+        print("counter es igual a:", counter)
+print("Fuera del bucle while")
