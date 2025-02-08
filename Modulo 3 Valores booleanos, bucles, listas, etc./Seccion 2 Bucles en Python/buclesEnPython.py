@@ -137,17 +137,66 @@
 
 "BREAK Y CONTINUE en el ciclo for"
 
+# Example of Break
+
+print("Sentencia break")
+for i in range(1,6):
+    print("Ciclo for", i)
+    if i == 3:
+        print("Se ejecutará una sentencia 'break'")
+        break
+print("Fuera del ciclo")
+
+
+print("Sentencia continue")
+for i in range(1,6):
+    print("Valor de i es: ", i )
+    if i == 2:
+        print("Se ejecutará una sentencia 'continue'")       
+        continue
+    if i == 4:
+        print("Se ejecutará una sentencia 'continue'")       
+        continue
+print("Fuera del ciclo")
+    
+
 
 
 
 #----------------------------------------------------------------------
 
-counter = 1
-while counter != 100:
-    print("Dentro del bucle." , counter)
-    counter += 1
-    if counter == 30:
-        print("Counter llego a ", counter)
-    elif counter == 31:
-        print("counter es igual a:", counter)
-print("Fuera del bucle while")
+# counter = 1
+# while counter != 100:
+#     print("Dentro del bucle." , counter)
+#     counter += 1
+#     if counter == 30:
+#         print("Counter llego a ", counter)
+#     elif counter == 31:
+#         print("counter es igual a:", counter)
+# print("Fuera del bucle while porque llego al numero", counter)
+
+# _________________________________________________
+# counter = 3
+# while counter:
+#     print("Dentro del bucle", counter)
+#     counter -= 1
+# print("fuera del bucle", counter)
+
+# .....................................................
+# secret_number = 5
+# number = int(input("ingresa un numero"))
+# while secret_number != number:
+#     print("Ja ja! Estas atrapado en mi bucle")
+#     number = int(input("Ingresa un nuevo numero"))
+# print("Hecho, muggle! Eres libre ahora")
+
+
+'''
+****************************************
+* Estos son ejercicios con for         *
+*                                      *
+*                                      *
+****************************************
+
+'''
+
