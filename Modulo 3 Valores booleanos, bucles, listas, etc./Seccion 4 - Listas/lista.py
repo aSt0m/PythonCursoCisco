@@ -58,19 +58,53 @@
 
 """Funciones VS Metodos"""
 
-numbers = [111, 7, 2, 1]
-print(len(numbers))     # Imprimimos la loongitud de numbers = 4
-print(numbers)          # imprime [111, 7, 2, 1]
+# numbers = [111, 7, 2, 1]
+# print(len(numbers))     # Imprimimos la loongitud de numbers = 4
+# print(numbers)          # imprime [111, 7, 2, 1]
 
-###
+# ###
 
-numbers.append(4)       # Agrega el valor 4 al final de la lista
+# numbers.append(4)       # Agrega el valor 4 al final de la lista
 
-print(len(numbers))     # Imprime la longitud de numbers = 5 despues de agregar 4
-print(numbers)          # Inmprime [111,7, 2, 1, 4]
+# print(len(numbers))     # Imprime la longitud de numbers = 5 despues de agregar 4
+# print(numbers)          # Inmprime [111,7, 2, 1, 4]
 
-###
+# ###
 
-numbers.insert(0, 222)  # Agrega en el indice 0 el valor de 222
-print(len(numbers))     # Imprime la longitud de numbers ahora 6 
-print(numbers)          # Imprime [222, 111, 7, 2, 1, 4]
+# numbers.insert(0, 222)  # Agrega en el indice 0 el valor de 222
+# print(len(numbers))     # Imprime la longitud de numbers ahora 6 
+# print(numbers)          # Imprime [222, 111, 7, 2, 1, 4]
+
+
+"""
+Agregando elementos a una lista vacia
+"""
+
+# my_list = []
+
+# for i in range(5):
+#     my_list.append(i + 1)
+    
+# print(my_list)
+
+
+# my_list = []
+
+# for i in range(5):
+#     my_list.insert(-1, i)
+    
+# print(my_list)
+
+new_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(new_list)
+new_list.insert(9, 777)
+print(new_list)
+for list in new_list:
+    print(list)
+    if list == 777:
+        print("777, es el valor en este momento del ciclo")
+    
+print(new_list)
+
+new_list.append(999)
+print(new_list)
