@@ -95,16 +95,117 @@ Agregando elementos a una lista vacia
     
 # print(my_list)
 
-new_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(new_list)
-new_list.insert(9, 777)
-print(new_list)
-for list in new_list:
-    print(list)
-    if list == 777:
-        print("777, es el valor en este momento del ciclo")
+# new_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(new_list)
+# new_list.insert(9, 777)
+# print(new_list)
+# for list in new_list:
+#     print(list)
+#     if list == 777:
+#         print("777, es el valor en este momento del ciclo")
     
-print(new_list)
+# print(new_list)
 
-new_list.append(999)
-print(new_list)
+# new_list.append(999)
+# print(new_list)
+
+"""Eliminando elementos de una listas"""
+
+# new_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# del new_list[1]
+# print(new_list)
+
+
+"""
+Lab LIstas 1
+- escribir una linea de codigo que solicite al usuario que reemplace el numero central en la lista con un numero entero ingresado por el usuario (paso 1)
+- escribir una linea de codigo que elimine el ultimo elemento de la lista (paso 2)
+- escribir una linea de codigo que imprima al longitud de la lista existente (paso 3)
+"""
+
+
+# hat_list = [1,  2, 3, 4, 5]
+# print("La lista de numeros que esta en el sombrero es: 1,2,3,4,5")
+# num_select = int(input("Dame el numero entero para intercambiar por el numero 3: "))
+# print("El numero cambiado fue el", hat_list[2]," fue el numero ", num_select  )
+# hat_list[2] = num_select
+# del hat_list[-1]
+# print("La longitud de la lista es: ", len(hat_list))
+# print(hat_list)
+
+# my_list = [1,2,3,4,5]
+
+# my_list[0], my_list[4] = my_list[4], my_list[0]
+# my_list[1], my_list[3] = my_list[3], my_list[1]
+
+ 
+# print(my_list)
+
+# my_list = [10, 1, 8, 3, 5]
+# print(my_list) 
+# my_list[0], my_list[4] = my_list[4], my_list[0] # 10, 5 = 5, 10  
+# my_list[1], my_list[3] = my_list[3], my_list[1] # 1, 3 = 3, 1
+ 
+# print(my_list)
+
+# my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,102,103]
+
+# length = len(my_list)
+# for i in range(length // 2):
+#     my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
+# print(my_list)
+# print(length // 2)
+
+'''
+LAB fundamentos de las listas: los beatles
+* paso 1: crea una lista vacia llamada beatles;
+* paso 2: emplea el metodo append() para agregar los siguientes miembros de la banda a la lista: John Lennon, Paul Mackartney y George Harrison;
+* paso 3 emplea el bucle for y el append() para pedirle al usuario que agregue los siguientes miembros de la banda a la lista Stu Sutcliffe y Pete Best;
+* paso 4: usa la instruccion del para eliminar a Stu SucCliffe y Pete Best de la lista:
+* paso 5: usa el metodo insert() para agregar a Ringo Starr al principio de la lista
+;
+'''
+
+# beatles = []
+# print(beatles.append("John Lennon"),beatles)
+# print(beatles.append("Ringo Starr"),beatles)
+# print(beatles.append("Paul McCartney"), beatles)
+# print(beatles.append("George Harrison"), beatles)
+# length = len(beatles)
+# for i in range(1):
+#     music_man = str(input("Dame el nombre de primer integrante: "))
+#     print(beatles.append("John Lennon"),beatles)
+#     beatles.append(music_man)
+#     music_man2 = str(input("Dame el nombre de otro integrante: "))
+#     beatles.append(music_man2)
+# print(beatles)
+# del beatles[-1]
+# print(beatles)
+# del beatles[-1]
+# print(beatles)
+
+'''
+Metodo sort() para ordenar listas
+
+'''
+
+# fruits = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+
+# print(fruits)
+# fruits.sort()
+# print(fruits)
+
+
+"""_
+
+Metodo reverse() sirve para invertir la lista
+
+"""
+
+fruits = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+print(fruits)
+for i in range(len(fruits)):
+
+    fruits.reverse(i)
+    
+    print(fruits)
