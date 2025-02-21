@@ -202,10 +202,108 @@ Metodo reverse() sirve para invertir la lista
 
 """
 
-fruits = [1, 4, 2, 9, 7, 8, 9, 3, 1]
-print(fruits)
-for i in range(len(fruits)):
+# fruits = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+# print(fruits)
+# for i in range(len(fruits)):
 
-    fruits.reverse(i)
+#     fruits.reverse()
     
-    print(fruits)
+# print(fruits)
+
+"""
+Ejemplo con sort()    
+"""
+
+# my_list = ["R", "M", "J", "Z","K"]
+# my_list.sort()
+# print(my_list)
+
+
+
+# list_1 = [1]
+# print("list_1 = [1]:     ", list_1)
+# list_2 = list_1
+# print("list_2 = list_1:  ", list_2)
+# list_1[0] = 2
+# print("list_1[0] = 2:     ",list_1[0])
+# print("list_2:           ",list_2)
+
+
+
+# print("-------------SEPARADOR-----------------------")
+
+# list_1 = [1]
+# print("list_1 = [1]  |    ", list_1)
+
+# list_2 = list_1[:]
+# print("list_2 = list_1[:] | ", list_2)
+
+# list_1[0] = 2
+# print(list_1[0])
+# print(list_2)
+
+"""
+Operaciones con listas
+
+"""
+
+# nombres = ["Juan", "Carlos", "Abraham", "Ramiro", "Luis", "Fernando"]
+# print("Mi lista original es: ", nombres)
+# print("Lista con nombres[1:3] es: ", nombres[1:3])
+# del nombres[1:2]
+# print("Lista con del nombres[1:2] es: ", nombres)
+
+
+
+"""
+Operadores in y not in
+"""
+
+# nombres = ["Juan", "Carlos", "Abraham", "Ramiro", "Luis", "Fernando"]
+# print("wences" in nombres) #Nos regresara False
+# print("Juan" in nombres)    I#Nos regresara True python distingue entre mayusculas y minusculas
+
+
+
+"""
+Encontrar el valor mas grande en una lista con python
+
+"""
+
+# my_list = [3, 3, 22, 32, 51, 1, 3, 32]
+# largest = my_list[0]
+# for elem in my_list[1:]:
+#     if elem > largest:
+#         print(elem)
+#         largest = elem
+#     else:
+#         print("El ",elem, "Este numero es menor que el elemento de la lista")
+# print("El numero mas grande es: ", largest)
+
+
+
+"""
+Encontrar la ubicacion de un elemento de una lista
+"""
+
+# my_list = [3, 3, 22, 32, 51, 1, 3, 32]
+# to_find = 51
+# found = False
+
+# for i in range(len(my_list)):
+#     found = my_list[i] == to_find
+#     if found:
+#         print("Encontrado el", to_find , "en el indice ", i )
+
+"""
+Comparar dos listas 
+"""
+
+# lotery = [3, 3, 22, 32, 51, 1, 3, 32]
+# play = [2, 7, 0, 10, 3, 32, 8, 1]
+# match = 0
+# for number in play:
+#     if number in lotery:
+#         print("Number match: ", number)
+#         match += 1
+# print("num of match", match)
