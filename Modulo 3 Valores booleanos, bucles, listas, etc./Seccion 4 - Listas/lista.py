@@ -293,17 +293,56 @@ Encontrar la ubicacion de un elemento de una lista
 # for i in range(len(my_list)):
 #     found = my_list[i] == to_find
 #     if found:
-#         print("Encontrado el", to_find , "en el indice ", i )
+#          break
+# if found:
+#     print("Elemento encontrado en el indice ", i)
+# else:
+#     print("ausente")
+
+
 
 """
 Comparar dos listas 
 """
 
-# lotery = [3, 3, 22, 32, 51, 1, 3, 32]
-# play = [2, 7, 0, 10, 3, 32, 8, 1]
+# list_one = [3, 3, 22, 32, 51, 1, 3, 32]
+# list_two = [9, 32, 92, 28, 31, 2, 9, 2]
 # match = 0
-# for number in play:
-#     if number in lotery:
-#         print("Number match: ", number)
+
+# for num in range(len(list_two)):
+#     if num in list_one:
 #         match += 1
-# print("num of match", match)
+# print(match)
+        
+        
+'''
+LAB Operaciones con listas
+
+Escenario
+Imagina una lista - no muy larga ni muy complicada, solo una lista simple que contiene algunos números enteros. Algunos de estos números pueden estar repetidos, y esta es la clave. No queremos ninguna repetición. Queremos que sean eliminados.
+
+Tu tarea es escribir un programa que elimine todas las repeticiones de números de la lista. El objetivo es tener una lista en la que todos los números aparezcan no más de una vez.
+
+Nota: Asume que la lista original está ya dentro del código - no tienes que ingresarla desde el teclado. Por supuesto, puedes mejorar el código y agregar una parte que pueda llevar a cabo una conversación con el usuario y obtener todos los datos.
+
+Sugerencia: Te recomendamos que crees una nueva lista como área de trabajo temporal - no necesitas actualizar la lista actual.
+
+No hemos proporcionado datos de prueba, ya que sería demasiado fácil. Puedes usar nuestro esqueleto en su lugar.
+'''
+
+
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+
+new_list = my_list[:]
+
+
+for numbers in my_list:
+    if new_list[numbers] in my_list:
+        del my_list[numbers]
+       
+print("La lista con elementos únicos:")
+print(my_list)
+
+
+
