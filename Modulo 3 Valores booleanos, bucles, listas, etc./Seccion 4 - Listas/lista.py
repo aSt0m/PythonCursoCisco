@@ -331,18 +331,168 @@ No hemos proporcionado datos de prueba, ya que sería demasiado fácil. Puedes u
 '''
 
 
-my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 # my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# # my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 
-new_list = my_list[:]
+# new_list = my_list[:]
 
 
-for numbers in my_list:
-    if new_list[numbers] in my_list:
-        del my_list[numbers]
+# for numbers in my_list:
+#     if new_list[numbers] in my_list:
+#         del my_list[numbers]
        
-print("La lista con elementos únicos:")
-print(my_list)
+# print("La lista con elementos únicos:")
+# print(my_list)
 
 
+
+'''-----------------------------RESUMEN-------------------'''
+
+
+# my_list = [1, 2, "in", True, "ABC"]
+
+# print(1 in my_list)  # output True
+# print("A" not in my_list)  # output True
+# print(3 not in my_list)  # output True
+# print(False in my_list)  # output False
+
+""" 
+Listas dentro de listas 
+"""
+
+# row = [i * 2 for i in range(10)]
+# print(row)
+
+# row_2 = ["WHITE_PAWN" * i for i in range(4)]
+# print("Este es el valor de row_2: ", row_2)
+
+
+# twos = [2 ** i for i in range(8)]
+# print(twos)
+
+
+# Este programa imprime los numeros impares de la lista squares
+# squares = [1, 3, 8, 9]
+# odds = [x for x in squares if x % 2 != 0 ]
+# print(odds)
+
+"""Contador del uno al 20 con lis-comprehension"""
+
+# counting_twenty = [i+1 for i in range(20)]
+# print(counting_twenty)
+
+
+# counting_million = [i + 1 for i in range(1000000)]
+# print(counting_million)
+
+
+"""
+Arreglos de dos dimensiones
+"""
+
+# board = []
+
+# for i in range(8):
+#     row = ["Empty" for i in range(8)]
+#     board.append(row)
+    
+# board = [["Empty" for i in range(2)] for j in range(3)]
+  
+# print(board)
+
+# list_comprehension = [x for x in range(10) if x < 6]
+# print(list_comprehension)
+
+# list_comprehension = [x for x in range(100) if x % 2 == 0]
+# print(list_comprehension)
+
+# list_test = [x for x in range(-1, 1)]
+# print(len(list_test))
+
+# t = [[3-i for i in range (3)] for j in range (3)]
+# print("Primera impresión de t: ", t)
+# s = 0
+# for i in range(3):
+#     s += t[i][i]
+# print(t)
+# print(s)
+
+# """Ejemplo"""
+# my_list = [[0, 1, 2, 3] for i in range(2)]
+# print(my_list[1][0])
+
+# """Ejemplo"""
+# i = 0
+# while i <= 5 :
+#     print("Antes del if",i % 2)
+#     i += 1
+#     if i % 2 == 0:
+#       break
+#     print("*")
+var = 1
+while var < 10:
+    print("#")
+    var = var << 1
+    print("valor de var es: ", var)
+
+
+
+z = 10
+y = 0
+x = y < z and z > y or y > z and z < y
+
+print(y < z and z > y)
+print(y > z and z < y)
+print(0 | 1)
+
+
+"""Ejemplo"""
+vals = [0, 1, 2]
+vals.insert(0, 1)
+print(vals)
+del vals[1]
+print(vals)
+
+
+"""Ejemplo"""
+my_list_1 = [1, 2, 3]
+my_list_2 = []
+for v in my_list_1:
+    my_list_2.insert(0, v )
+    print(my_list_2)
+print(my_list_2)
+
+
+var = 0
+while var < 6:
+    var += 1
+    if var % 2 == 0:
+        continue
+    print("#")
+
+var = 1
+while var < 10:
+    print("#")
+    print(var)    
+    var = var << 1
+
+z = 10
+y = 0
+x = y < z and z > y or y > z and z < y
+print(x)
+
+
+
+vals = [0, 1, 2]
+vals.insert(0, 1)
+del vals[1]
+
+print(len(vals))
+
+i = 0
+while i <= 5 :
+    i += 1
+    if i % 2 == 0:
+      break
+    print("*")
 
