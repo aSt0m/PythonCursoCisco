@@ -253,3 +253,29 @@ print("------ Triangulos y el Teorema de Pitagoras ------ ")
 # print(is_a_right_triangle(5, 3, 4))
 # print(is_a_right_triangle(1, 3, 4))
 
+print("------ Funciones factoriales ------")
+
+
+# def factorial(n):
+    
+#     if n < 0:
+#         return None
+#     if n < 2:
+#         return 1
+#     print(n)
+#     return n * factorial(n - 1)
+# print(factorial(5))
+
+def factorial(n):
+    if n == 1:
+        print("n es igual a 1")
+        return print(n * factorial(n - 1))
+
+
+print(factorial(4))
+
+
+
+
+
+
