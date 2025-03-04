@@ -266,16 +266,35 @@ print("------ Funciones factoriales ------")
 #     return n * factorial(n - 1)
 # print(factorial(5))
 
-def factorial(n):
-    if n == 1:
-        print("n es igual a 1")
-        return print(n * factorial(n - 1))
+# def factorial(n):
+#     if n == 1:
+#         print("n es igual a 1")
+#         return print(n * factorial(n - 1))
 
 
-print(factorial(4))
+# print(factorial(4))
 
 
+print("------- Listas, tuplas y diccionarios -------")
+
+my_list = [1, 3, 78, 2, "hola", 8.2]
+my_tupla = (3, 8, 2.3, 'text', 1)
+my_dictionary = {"perro":"John", "cat":"minino", "edad": 2, }
+
+print(type(my_list))
+print(type(my_tupla))
+print(type(my_dictionary))
 
 
+my_dictionary["perro"] = "bobby"
+print(my_dictionary)
 
+for key in sorted(my_dictionary.keys()):
+    print(key)
+for key in my_dictionary.values():
+    print(key)
+    
+my_dictionary.update({"hurón":"Ramón"})
+
+print(my_dictionary) 
 
